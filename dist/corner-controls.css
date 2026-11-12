@@ -1,0 +1,9 @@
+body.in-battle .arena-controls.corner-layout{position:fixed;inset:0;z-index:20;pointer-events:none}
+.corner-layout .movement-hud{gap:0}.corner-layout .movement-hud>.hud-caption{display:none}
+.corner-layout .battle-actions{scale:1!important;transform-origin:center}
+.corner-layout[data-hand=left] .battle-actions .fire-button{left:0;right:auto}
+.corner-layout[data-hand=left] .battle-actions .super-button{left:113px;right:auto}
+.corner-layout[data-hand=left] .battle-actions .recharge-button{left:2px;right:auto}
+@media(max-width:420px){.corner-layout[data-hand=left] .battle-actions .super-button{left:90px}}
+@media(max-height:550px) and (orientation:landscape){.corner-layout .battle-actions{width:180px;height:145px}.corner-layout .fire-button{width:82px;height:82px}.corner-layout .recharge-button{bottom:99px}.corner-layout .super-button{right:100px}.corner-layout[data-hand=left] .battle-actions .super-button{left:100px}}
+.corner-layout[data-hand=left] .battle-actions .dash-button{left:119px;right:auto}@media(max-width:700px){.corner-layout[data-hand=left] .battle-actions .dash-button{left:112px}}@media(max-width:420px){.corner-layout[data-hand=left] .battle-actions .dash-button{left:96px}}

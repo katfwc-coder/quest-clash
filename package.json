@@ -1,0 +1,14 @@
+{
+  "name": "quest-clash",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Original educational adventure game with dog and cat companions",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node build-live.mjs",
+    "start": "node build-live.mjs && node preview.mjs"
+  }
+}
